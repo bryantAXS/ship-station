@@ -18,6 +18,7 @@ class Shipments extends BaseEndpoint
         return $this->get('', ['query' => $query]);
     }
 
+
     /**
      *
      * @param array $label
